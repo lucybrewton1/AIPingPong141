@@ -1,33 +1,41 @@
-body {
-    background-size: cover;
+
+.heading
+{
+width: 100%;
+text-align: left;
 }
-.heading {
-    width: 100%;
-    text-align: left;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-.heading h3 {
+.heading h3{
     display: inline;
 }
-.heading button {
+
+.heading button{
     float: right;
     border: 1px solid white;
 }
-#button {
-    font-size: 17px;
-    width: 150px;
+
+#start ,#status, #restart
+{
+font-size: 22px;
 }
-.footer {
-    width: 100%;
-    bottom: 0;
-    position: sticky;
-    background-color: #bd782a;
-    color: white;
-    margin-top: 10px;
-    padding: 1px;
+
+.modal-dialog
+{
+    width: 70%;
 }
-canvas {
-    border: solid 2px gray;
-    border-radius: 10px;
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
 }
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
